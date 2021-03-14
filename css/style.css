@@ -1,0 +1,402 @@
+/* Стили */
+/* Основной шрифт */
+@font-face{
+    font-family:'HalyardText-Regular';
+    src: url(../fonts/HalyardText-Regular.ttf);
+}
+/* h1-h2 */
+@font-face{
+    font-family:'HalyardText-Bold';
+    src: url(../fonts/HalyardText-Bold.ttf);
+}
+
+html{
+    font-family:'HalyardText-Regular';
+    color:#455880;
+    font-size: 18px;
+}
+h1,h2 {
+    font-family:'HalyardText-Bold';
+    color:#1E266D;
+}
+/* Основные настройки */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #1E266D;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+/* Голова */
+.header__block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+.button__primary{
+    background: #3751FF;
+    color:#ffff;
+    border-radius: 100px;
+    padding: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 16px;
+    margin: 11.2px;
+}
+
+.tel__link, .nav__link{
+    font-size: 16px;
+}
+
+.tel__link{
+    margin-right: 34px;
+}
+
+.nav__link{
+    margin-right: 48px;
+}
+
+.arrow__down{
+    padding-right: 12px;
+    background:url(../img/arrow-down.svg) no-repeat right  top 8px;
+}
+
+.logo{
+    font-family:'HalyardText-Bold';
+    font-size: 24px;
+}
+.logo-dop{
+    color:#FF2E6A;
+}
+/* hero-секция */
+.hero__section{
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+}
+.hero__block{
+    display: flex;
+    flex-direction: column;
+    padding-top: 144px;
+    text-align: center;
+    align-items: center;
+}
+.title__hero__block{
+    line-height: 105px;
+}
+.title__hero__text{
+    font-size: 18px;
+}
+.title__hero{
+    font-size: 48px;
+}
+.button__block{
+    display: flex;
+}
+.button__primary--dop{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    color: #455880;
+}
+.hero__bg{
+    margin-bottom: -160px;
+}
+
+/* Секция компаний */
+.company__block{
+    margin-top: 166px;
+    margin-bottom: 104px;
+    text-align: center;
+    align-items: center;
+}
+.company__box{
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+.company__text{
+    font-size: 16px;
+    color: rgba(69, 88, 128, 0.5);
+    font-size: 16px;
+    line-height: 27px;
+}
+.company__img{
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+/* Секция wheatever */
+.wheatever__block{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 150px;
+}
+.title__wheatever{
+    font-size: 48px;
+    text-align: center;
+}
+.info__box{
+    display: flex;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+.info__box:not(:last-child){
+    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+}
+.wheatever__info__block{
+    max-width: 405px;
+    margin-top: 137px;
+}
+.wheatever__icon-img{
+    padding-right: 35px;  
+}
+.title__info{
+    padding-bottom: 25px;
+    text-align: left;
+}
+.text__info{
+    text-align: left;
+}
+/* Секция simplicity */
+.simplicity__section{
+    background:url(../img/simplicity-img.png) no-repeat #FFF9EA;
+    background-position:bottom;
+    background-size:1980px;
+}
+.simplicity__block{
+    text-align: center;
+    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 580px;
+    display: flex;
+    flex-direction: column;
+}
+.title__simplicity{
+    padding-bottom: 40px;
+    font-style: 48px;
+    line-height: 60px;
+}
+.info__simplicity{
+    font-size: 21px;
+    line-height: 41px;
+    padding-bottom: 40px;
+    maX-width: 400px;
+    display: flex;
+}
+/* saying секция */
+.saying__title{
+    margin-top: 232px;
+    text-align: center;
+    margin-bottom: 56px;
+    font-size: 48px;
+}
+.saying__block{
+    display: flex;
+}
+.saying__box{
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    margin: 14px;
+    max-width:372.89px;
+}
+.saying__text{
+    padding: 45px;
+}
+.avatar__profel{
+    margin-bottom: 23px;
+}
+.profel__box{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.nickname__profel{
+    color: #1E266D;
+}
+/* ready секция */
+.ready__section{
+    background: #3751FF;
+}
+.ready__title{
+    color: #FFFFFF;
+    font-size: 48px;
+}
+.get__text{
+    color: #DFE0EB;
+}
+.get__link{
+    color: #FED385;
+}
+.ready__block{
+    padding-top: 88px;
+    padding-bottom: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.get__now{
+    display: flex;
+    flex-direction: column;
+}
+.button__ready{
+    color: #455880;
+    background: url(../img/send.png) #ffff no-repeat 30px  13px;
+}
+/* website-map__section */
+.website-map__block{
+    margin-top: 124px;
+    padding-bottom: 68px;
+    border-bottom: 1px solid rgba(135, 146, 161, 0.08);
+    display: flex;
+    justify-content: space-between;
+}
+.website-map__info{
+    max-width: 310px;
+}
+.website-map__text{
+    margin-top: 31px;
+}
+.footer__map__link{
+    display: flex;
+    flex-direction: column;
+}
+.title__footer__map{
+    margin-bottom: 31px;
+    color: #1E266D;
+}
+.footer__link:not(:last-child){
+    margin-bottom: 18px;
+}
+.footer__link{
+    color: #455880;
+}
+.dop__footer__link{
+    display: flex;
+    flex-direction: column;
+}
+.our__links{
+    margin-bottom: 25px;
+}
+.icon__link__footer:not(:last-child){
+    margin-right: 24px;
+}
+/* copyrating секция */
+.copyrating__block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+.copyrating__title{
+    color: rgba(69, 88, 128, 0.5);
+    font-size: 14px;
+}
+.copyrating__link{
+    font-size: 14px;
+    color: #455880;
+}
+.copyrating__link:not(:last-child){
+    margin-right: 28px;
+}
+/* Адаптация */
+@media(max-width:1200px){
+    .header__block,.wheatever__block,.ready__block,.website-map__block,.copyrating__block,.title__hero__block,.title__wheatever,.saying__title{
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+}
+@media (max-width:1010px) {
+    .header__block{
+        flex-direction: column;
+    }
+    .logo__block{
+        text-align: center;
+    }
+    .navigation{
+        text-align: center;
+    }
+    .contacts{
+        text-align: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero__bg{
+        width: 560px;
+    }
+}
+@media (max-width:960px) {
+    .wheatever__img__block{
+        display: none;
+    }
+    .wheatever__block{
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+@media (max-width:779px) {
+    .saying__block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        padding-left: 45px;
+    }
+    .arrow__down{
+        display: none;
+    }
+    .website-map__block{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .title__footer__map{
+        margin-top: 25px;
+    }
+    .title__hero,.title__wheatever,.saying__title,.ready__title{
+        font-size: 28px;
+    }
+}
+@media (max-width:576px) {
+    .ready__block{
+        flex-direction: column;
+    }
+    .hero__bg{
+        width: 320px;
+    }
+    .copyrating__block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title__hero__block{
+        line-height:normal;
+    }
+}
+/* Анимация */
+a:hover{
+    color:#FF2E6A
+}
+.button__primary--dop:hover{
+    background: #3751FF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+.button__primary:hover{
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
